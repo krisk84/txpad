@@ -14,21 +14,21 @@ To get that running, see: [medusalix/xow](https://github.com/medusalix/xow)
 
 # Installing
 ```
-sudo git clone https://github.com/paroj/xpad.git /usr/src/xpad-0.4
-sudo dkms install -m xpad -v 0.4
+sudo git clone https://github.com/krisk84/txpad.git /usr/src/txpad-0.1
+sudo dkms install -m txpad -v 0.1
 ```
 # Updating
 ```
-cd /usr/src/xpad-0.4
+cd /usr/src/txpad-0.1
 sudo git fetch
 sudo git checkout origin/master
-sudo dkms remove -m xpad -v 0.4 --all
-sudo dkms install -m xpad -v 0.4
+sudo dkms remove -m txpad -v 0.1 --all
+sudo dkms install -m txpad -v 0.1
 ```
 # Removing
 ```
-sudo dkms remove -m xpad -v 0.4 --all
-sudo rm -rf /usr/src/xpad-0.4
+sudo dkms remove -m txpad -v 0.1 --all
+sudo rm -rf /usr/src/txpad-0.1
 ```
 # Usage
 This driver creates three devices for each attached gamepad
