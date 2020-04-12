@@ -1,6 +1,8 @@
 # Updated Xpad Linux Kernel Driver
 Driver for the Xbox/ Xbox 360/ Xbox 360 Wireless/ Xbox One Controllers
 
+Modified to txpad.ko because the Nvidia Tegra devices build xpad.ko into the kernel
+
 This driver includes the latest changes in the upstream linux kernel and additionally carries the following staging changes:
 
 * enable debug outputs to ease resolving issues
